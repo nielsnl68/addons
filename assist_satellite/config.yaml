@@ -33,4 +33,3 @@ schema:
   debug_logging: bool
 audio: true
 homeassistant: 2026.3.0
-image: homeassistant/{arch}-addon-assist_satellite
