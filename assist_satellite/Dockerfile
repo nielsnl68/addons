@@ -40,7 +40,7 @@ RUN \
         setuptools \
         wheel \
     && pip3 install --no-cache-dir \
-        "linux-voice-assistant @ https://github.com/OHF-Voice/linux-voice-assistant/archive/refs/tags/v${LINUX_VOICE_ASSISTANT_VERSION}.tar.gz" \
+        "linux-voice-assistant @ https://github.com/OHF-Voice/linux-voice-assistant/archive/refs/tags/v1.1.9.tar.gz" \
     \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
